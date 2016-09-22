@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="fund">
+		<class>com.hhh.dao.entity.wf.WfCcOrder</class>
+		<class>com.hhh.dao.entity.wf.WfCcOrderPK</class>
+		<class>com.hhh.dao.entity.wf.WfHistOrder</class>
+		<class>com.hhh.dao.entity.wf.WfHistTask</class>
+		<class>com.hhh.dao.entity.wf.WfHistTaskActor</class>
+		<class>com.hhh.dao.entity.wf.WfHistTaskActorPK</class>
+		<class>com.hhh.dao.entity.wf.WfOrder</class>
+		<class>com.hhh.dao.entity.wf.WfProcess</class>
+		<class>com.hhh.dao.entity.wf.WfSurrogate</class>
+		<class>com.hhh.dao.entity.wf.WfTask</class>
+		<class>com.hhh.dao.entity.wf.WfTaskActor</class>
+		<class>com.hhh.dao.entity.wf.WfTaskActorPK</class>
+		<class>com.hhh.dao.entity.wf.WfWorkitem</class>
+		<class>com.hhh.dao.entity.ac.SysOrg</class>
+		<class>com.hhh.dao.entity.ac.SysResource</class>
+		<class>com.hhh.dao.entity.ac.SysRole</class>
+		<class>com.hhh.dao.entity.ac.SysUser</class>
+		<class>com.hhh.dao.entity.fund.SysDict</class>
+		<class>com.hhh.dao.entity.shop.SysShop</class>
+		<class>com.hhh.dao.entity.fenfa.SsOrder</class>
+		<class>com.hhh.dao.entity.fenfa.SsOrgSer</class>
+		<class>com.hhh.dao.entity.fenfa.SsApp</class>
+		<class>com.hhh.dao.entity.fenfa.SsService</class>
+		<class>com.hhh.dao.entity.fenfa.SsClientInfo</class>
+		<class>com.hhh.dao.entity.fenfa.SsAppVer</class>
+		<class>com.hhh.dao.entity.fenfa.SsVersService</class>
+		<class>com.hhh.dao.entity.fenfa.SsOrdersService</class>
+	</persistence-unit>
+</persistence>

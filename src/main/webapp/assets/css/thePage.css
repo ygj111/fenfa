@@ -1,0 +1,128 @@
+#wrapper{background-color: #3C454D;}
+/*去除火狐浏览器点击超链接产生的黑边*/
+a:focus{outline: none;} 
+
+ /*回到顶部*/
+#scrollpoint{width: 40px; height: 40px;background-color: #00ACAC;border-radius: 10%;
+		   position: fixed;right: 30px;bottom:80px;z-index: 20;text-align: center;}
+#scrollpoint a{color: white;}
+/*#scrollpoint a:hover{color: cornflowerblue;}*/
+	
+/*nav1*/
+.nav li a:hover{color: dodgerblue;}
+#sidebar:hover{background-color: inherit;}
+#sidebar:focus{background-color: inherit;}
+#sidebar{margin-right: 900px;}
+.navbar{height:50px;margin-bottom: 0px;background-color: #FFFFFF;border-bottom-color:#E7E7E7;border-radius: 0;}
+.navbar-header{float: left;}
+.navbar-brand{font-size: 23px;}
+.navbar-right{float: right;margin-right: 15px;}
+.dropdown-message{padding-top: 10px;}
+.badge{ position: absolute;background: #f44336;color: white;padding: 0.8px 4px;border-radius: 2px;right: 22px;top: 11px;}
+
+/*sidebar*/
+.sidebar{z-index:1;width: 250px;min-height:700px;position: absolute;border-color:#E7E7E7; background-color:#3C454D;}
+/*.level1 li{border-bottom: 1px solid #e7e7e7} 侧边栏的边框线条*/
+.sidebar a{color: #CCCCFF;}
+.level2 li{border-bottom:none}
+.level1 li a:hover{background-color: #636A71;color: #FFFFFF;}
+/*.level1 li a:visited{background-color: #24292E;color: white;}*/
+.level1 li a:focus{background-color: #24292E;color: #FFFFFF;}
+.navbar-collapse{padding-left: 0;padding-right: 0;}
+.sidebar-title{text-align: center;font-size: 18px;}
+.sidebar-search{padding: 15px;}
+.level2 li a{padding-left: 40px;color: darkseagreen;background-color: #30373E;} 
+.level3 li a{padding-left: 60px;color: burlywood;background-color:#30373E ;} 
+.level4 li a{padding-left: 80px;color: cornflowerblue;background-color: #30373E;} 
+
+/*showspace*/
+#showspace{background-color:#D9E0E7;;min-height: 700px;margin-left: 250px;padding: 0px 30px;padding-bottom: 50px;border-left: 1px solid #E7E7E7;}
+.header{padding-bottom: 9px;margin: 40px 0 20px;border-bottom: 1px solid #eee;}
+
+/*dashboar是首页的*/
+.header{padding-bottom: 9px;margin: 40px 0 20px;border-bottom: 1px solid #eee;}	
+.widget{border-radius: 5px;color: #fff;margin-bottom: 40px;}
+.widget  a{color: whitesmoke;}
+.widget-info{display: inline-block;font-size: 24px;padding-left: 15px;}
+.widget-icon{display: inline-block;color: ;float: right;padding-top: 20px; padding-right: 20px;}
+.widget-link{padding:7px 15px;text-align: right;}
+/*.widget-link a{color: white;text-decoration: none;}*/
+.widget-visit{background-color: #00ACAC ;}
+.widget-visit .widget-link{background-color:#0A8080;}
+.widget-comment{background-color: #348FE2;}
+.widget-comment .widget-link{background-color: #2E6CA5;}
+.widget-task{background-color: #727CB6;}
+.widget-task .widget-link{background-color: #586F87;}
+.widget-bounce{background-color: #FF5B57 ;}
+.widget-bounce .widget-link{background-color:#B94846;}
+
+/*仪表盘*/
+#ybp{min-width: 300px;min-height: 300px;}
+/*柱状图*/
+#zzt{min-width: 600px;min-height: 380px;}
+
+/*便签Task*/
+#todolist a{display: inline-block;color: darkslategrey;}
+.addlist{margin-top: 10px;}
+.addlist input{margin-left: 15px; maxlength:25;margin-right: 60px;}
+.addlist span button{margin-left: 15px;margin-right: 60px;}
+.addlist li a{background-color: #2A72B5;padding-bottom: 5px; padding-top: 5px;}
+
+/*日历*/
+.datepicker{text-align: center;}
+.ui-corner-all{margin-left: auto;margin-right: auto;}
+
+/*media object size*/
+.media-font{font-size: 13px;color: lightslategray;}
+
+/*message*/
+hr{margin-top: 10px;margin-bottom: 10px;}
+.rounded-corner{border-radius: 50%;}
+.media-body p{font-size: 13px;color: lightslategray;}
+.panel-message li a:hover{background-color: initial;} 
+.panel-message li a:active{background-color: initial;}
+.panel-message li a:focus{background-color: initial;}  
+
+	/*其他页面*/
+/*登录页面 login和注册页面register*/
+.login-panel{margin-top: 110px;}
+.login-title{margin-bottom: 0px; margin-top: 0px;}
+.login-panel .form-control{width: 90%;display: inline-block;}
+.signlink{float: right;}
+
+
+/*panel的颜色*/
+.dashboard .panel .panel-heading{background-color: #242A30;color: #fff;}
+.btable .panel .panel-heading{background-color: #242A30;color: #fff;}
+.form .panel .panel-heading{background-color: #242A30;color: #fff;}
+.upload .panel .panel-heading{background-color: #242A30;color: #fff;}
+.echarts .panel .panel-heading{background-color: #242A30;color: #fff;}
+.button .panel .panel-heading{background-color: #242A30;color: #fff;}
+.icon .panel .panel-heading{background-color: #242A30;color: #fff;}
+/*.panel-splitter .panel .panel-heading{background-color: #242A30;color: #fff;}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

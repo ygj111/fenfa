@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+body {
+	font-family: "lucida Grande", Verdana, "Microsoft YaHei", sans-serif;
+}
+
+.detail_cont {
+	margin-top: 10px;
+	height: 35px;
+	border-bottom: 2px #e5e5e5 solid;
+}
+
+.detail_table_title {
+	font-size: 16px;
+	line-height: 30px;
+	border-bottom: 2px #e5e5e5 solid;
+}
+
+.detail_org_name {
+	font-size: 16px;
+	color: #2b2b2b;
+	height: 30px;
+	font-weight: normal;
+}
+
+.detail_table {
+	min-height: 190px;
+	margin-top: 10px;
+	border: 1px #e9e9e9 solid;
+}
+
+.detail_table_header {
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px #e9e9e9 solid;
+	background: #f0f0f0;
+	text-align: center;
+	font-size: 12px;
+	color: #666666;
+}
+
+.detail_table_header_c1 {
+	width: 30%;
+	float: left;
+}
+
+.detail_table_header_c2 {
+	width: 50%;
+	float: left;
+}
+
+.detail_table_header_c3 {
+	width: 20%;
+	float: left;
+}
+
+.detail_table_content {
+	text-align: center;
+	font-size: 20px;
+	height: 150px;
+	line-height: 150px;
+}
+
+.detail_table_content_c1 {
+	width: 30%;
+	float: left;
+}
+
+.detail_table_content_c2 {
+	width: 50%;
+	float: left;
+}
+
+.detail_table_content_c3 {
+	width: 20%;
+	float: left;
+	color: #a51717;
+}
+.detail_table_content_c1 span {
+	display:inline-block;
+    height:100%;
+	vertical-align: middle;
+}
+.detail_table_content_c1 img {
+	vertical-align: middle;
+}
+
+.detail_price {
+	margin-top: 10px;
+	background: #edf0f2;
+	padding-right: 20px;
+	text-align: right;
+	font-size: 20px;
+	height: 60px;
+	line-height: 60px;
+}
+
+.detail_price span{
+	color: #a51717;
+}
+
+.m_b_mid {
+	margin-left: 30%;
+	text-align: center;
+	max-height: 200px;
+	overflow-y: auto;
+	border-color: #ECE4E4;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.m_b_mid ul {
+	margin-bottom: 0;
+}
+
+.m_b_mid p {
+	display: inline-block;
+}
+
+.btn-collapse {
+	background-color: #fff;
+}
+
+.m_b_mid .p1 {
+	width: 75%;
+	font-size: 16px;
+	color: #666666;
+	text-align: left;
+}
+
+.m_b_mid .p2 {
+	width: 25%;
+	font-size: 16px;
+	color: #a51717;
+}
